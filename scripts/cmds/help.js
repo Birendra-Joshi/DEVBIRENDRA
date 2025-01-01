@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `🌐 BIREYY--->🐉💙 COMMAND LIST 🌐`; // Replace this header with your bot name
+      msg += `🌐 Chill Guy COMMAND LIST 🌐`; // Replace this header with your bot name
 
       for (const [name, value] of commands) {
         if (value.config.role > 1 && role < value.config.role) continue;
@@ -65,7 +65,7 @@ module.exports = {
       msg += `\n🛠 Created by: 🐐 | DEV.BIRENDRA`; // Personal signature
 
       const helpListImages = [
-        "https://i.ibb.co/S3nbYhY/image.jpg"
+      "https://tinyurl.com/2cqpo4rm"
       ];
 
       const helpListImage = helpListImages[Math.floor(Math.random() * helpListImages.length)];
